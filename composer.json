@@ -1,0 +1,26 @@
+{
+    "name": "getweb/comments-wp-design",
+    "description": "Awesome Comment Style Plugin\\",
+    "type": "project",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "abusayedrussell",
+            "email": "abusayedrussell@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "support": {
+        "email": "abusayedrussell@gmail.com"
+    },
+     "autoload": {
+        "psr-4": {
+            "CWPD\\": "./wps"
+        },
+        "files": [
+            "wps/Helper/CWPDCommonHelper.php",
+            "wps/Helper/CWPDFunctionHelper.php"
+        ]  
+    }
+}

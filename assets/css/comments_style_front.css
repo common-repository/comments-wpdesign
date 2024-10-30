@@ -1,0 +1,39 @@
+/* Comment Area */
+.cwpd-comment-area.comments-area{padding: 0 15px 0 0;}
+.cwpd-comment-area.comments-area a.url, .comment-reply a.comment-reply-link, .comment-metadata a:hover, .comment-metadata a:focus{text-decoration: none;}
+.cwpd-comment-area.comments-area > .comments{padding: 10px 0px 0 13px;}
+.cwpd-comment-area.comments-area .comment-reply-title{padding-bottom: 0px;text-transform: capitalize;font-size: 22px;color: #008b8b;}
+.cwpd-comment-area.comments-area .comments-header + div {width: 100%;max-width: 100%;}
+.cwpd-comment-area.comments-area .comment-body {border: 1px solid #e7ebed;border-radius: 5px;padding: 15px;margin: 0px;width: 100%;}
+.cwpd-comment-area.comments-area .comment-content p{max-width: 100% !important;margin-bottom: 30px;}
+.cwpd-comment-area.comments-area .comment-author{float: left; margin: 0 8px;}
+.cwpd-comment-area.comments-area .comment-meta .avatar{left: 0px}
+.cwpd-comment-area.comments-area .comment-author img.avatar {border-radius: 50%;border: 1px solid #e1e1e1;padding: 3px;}
+.cwpd-comment-area.comments-area .comment-author .fn{display: block;font-weight: 500;color: #1a1a1a;margin-left: 62px;}
+.cwpd-comment-area.comments-area .comment-reply{text-align: right;position: absolute;right: 13px;bottom: 0;}
+.cwpd-comment-area.comments-area .comment {margin-top: 20px;}
+.cwpd-comment-area.comments-area .comment .comment {padding-left: 2%;margin-top: 20px;}
+.cwpd-comment-area.comments-area div.comment:first-of-type {margin-top: 3rem;}
+.cwpd-comment-area.comments-area .post-author-badge{margin: 15px 3px 0px 0;}
+.cwpd-comment-area.comments-area .comment .comment-author .post-author-badge{right: calc(100% - 2.5rem)!important;}
+.cwpd-comment-area.comments-area .comment_loadmore_button {width: 60%;text-align: center;margin-top: 32px;}
+.comment_loadmore {
+    border: none;
+    padding: 3px 15px;
+    color: #fff;
+    border-radius: 10px;
+    clear: both;
+    text-align: center;
+    width: 43%;
+    float: right;
+    margin: 10px 0 24px;
+    cursor: pointer;
+    background: #887c7d;
+}
+@media only screen and (max-width: 440px) {
+  .cwpd-comment-area.comments-area .comment-author.vcard{float: none;margin: 0;}
+  .cwpd-comment-area.comments-area .comment .comment {padding-left: 1%;margin-top: 15px;}
+  .cwpd-comment-area.comments-area .comment .comment-metadata .edit-link-sep{margin: 0 0;}
+}
+.cwpd-comment-area .navigation, .cwpd-comment-area .comment-navigation{display: none;}
+#erroreesult{color:#e11313;}
